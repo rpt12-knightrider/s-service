@@ -2,7 +2,8 @@ const mongoose = require('mongoose');
 
 
 const bookSchema =  new mongoose.Schema ({ 
-   _id: unique key,
+   //TODO: research automatically generated id
+   _id: unique_key,
    title: String,
    author: String,
    img_url: String, 
